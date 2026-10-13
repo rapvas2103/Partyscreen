@@ -135,7 +135,7 @@
     </div>
 
     <script>
-        const socket = io('http://localhost:3000');
+        const socket = io('https://partyscreen-server.onrender.com');
         let isOnline = false;
         let myRole = 0; 
         let myId = null;

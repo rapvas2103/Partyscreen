@@ -130,7 +130,7 @@
 
     <script>
         // Connexion au serveur Node.js local
-        const socket = io('http://localhost:3000');
+        const socket = io('https://partyscreen-server.onrender.com');
         
         let isOnline = false;
         let myRole = 0; // 0 = Local, 1 = J1 (Hôte), 2 = J2 (Client)
