@@ -1,0 +1,8 @@
+# Environnement et IDE
+.vscode/
+.idea/
+*.log
+.DS_Store
+
+# Dépendances Node (si tu as un dossier node_modules local, on ne l'envoie pas sur GitHub)
+node_modules/
